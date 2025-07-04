@@ -1,0 +1,21 @@
+webscan vuln/
+│
+├── core/
+│   ├── crawler.py
+│   ├── scanner.py
+│   ├── xss.py
+│   ├── sqli.py
+│   └── report.py
+│
+├── payloads/
+│   └── payloads.json
+│
+├── reports/
+│   └── report.html / report.pdf
+│
+├── utils/
+│   └── http.py (wrapper requests + logging)
+│
+├── main.py
+├── requirements.txt
+└── README.md

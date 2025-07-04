@@ -1,0 +1,34 @@
+# Core dependencies
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+urllib3>=2.0.0
+
+# Async and threading
+aiohttp>=3.8.0
+asyncio
+
+# Report generation
+jinja2>=3.1.0
+weasyprint>=59.0
+pdfkit>=1.0.0
+
+# Configuration and data handling
+pyyaml>=6.0
+colorama>=0.4.6
+
+# Security and validation
+validators>=0.20.0
+tldextract>=3.4.0
+
+# Optional integrations
+python-owasp-zap-v2.4>=0.0.21
+
+# Development and testing (optional)
+pytest>=7.4.0
+pytest-cov>=4.1.0
+black>=23.0.0
+flake8>=6.0.0
+
+# Performance monitoring
+psutil>=5.9.0
